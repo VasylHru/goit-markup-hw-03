@@ -199,7 +199,6 @@ address {
 
 .team-container {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .tema-title {
@@ -210,7 +209,7 @@ address {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  margin-bottom: 42px;
 }
 .team-list {
   background: #f4f4fd;
@@ -272,7 +271,7 @@ address {
 }
 
 .portfolio-cntainer {
-  padding-top: 120px;
+  
 }
 
 .portfolio-title {
