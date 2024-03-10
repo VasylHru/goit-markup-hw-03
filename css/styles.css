@@ -118,14 +118,12 @@ address {
 /* ================ */
 /* ======hero====== */
 
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+
 
 .hero {
   background: #2e2f42;
-
+  padding-top: 188px;
+  padding-bottom: 188px;
   display: flex;
   flex-direction: column;
 }
@@ -159,20 +157,23 @@ address {
 /* ===================== */
 /* ======features====== */
 
-.features-container {
-  padding: 120px 0 120px;
-}
+
 
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-list {
   display: flex;
-  gap: 24px;
+  gap: 24px; 
 }
 
 .features-item-list {
+  width: calc((100% - 3 * 24px) / 4);
 }
+
+
 
 .features-title {
   font-weight: 500;
@@ -195,11 +196,11 @@ address {
 /* ==================TEAM============== */
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.team-container {
-  padding-top: 120px;
-}
+
 
 .tema-title {
   font-weight: 700;
@@ -209,13 +210,13 @@ address {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 42px;
+  margin-bottom: 72px
 }
 .team-list {
   background: #f4f4fd;
   display: flex;
-  gap: 24px;
-  padding: 30px 184px 322px 128px;
+  
+  
 }
 
 .team-item {
@@ -224,6 +225,7 @@ address {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  flex-basis: calc((100% - 3 * 24px) / 4) 
 }
 .team-box {
   padding: 32px 0;
@@ -268,11 +270,11 @@ address {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.portfolio-cntainer {
-  
-}
+
 
 .portfolio-title {
   font-weight: 700;
