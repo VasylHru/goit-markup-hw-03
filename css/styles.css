@@ -3,14 +3,52 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
-ul,
-ol {
-  list-style: none;
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+/* ================ */
 /* ======logo====== */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -20,27 +58,48 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
 }
 
-/* ======navigation-header====== */
+/* ============================= */
+/* ======NAVIGATION-HEADER====== */
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
-
-/* ======address-header====== */
+/* ========================== */
+/* ======ADDRESS-HEADER====== */
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -55,10 +114,14 @@ ol {
 .address-link:focus {
   color: #404bbf;
 }
+
+/* ================ */
 /* ======hero====== */
 
 .hero {
   background: #2e2f42;
+  padding-bottom: 188px;
+  
 }
 
 .hero-title {
@@ -66,8 +129,12 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  
+  
+  
 }
 
 .hero-botton {
@@ -77,8 +144,12 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  
+
+  
 }
 
+/* ===================== */
 /* ======features====== */
 
 .features {
@@ -104,6 +175,7 @@ ol {
   color: #434455;
 }
 
+/* ===========*/
 /* ===team=== */
 
 .team {
@@ -124,9 +196,7 @@ ol {
 .team-item {
 }
 .team-img {
-
 }
-
 
 .team-name {
   font-weight: 500;
@@ -146,24 +216,24 @@ ol {
   color: #434455;
 }
 
+/* =============== */
 /* ===portfolio=== */
 
 .portfolio {
 }
 .portfolio-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
 .portfolio-items {
 }
 .portfolio-img {
-
 }
 
 .portfolio-subtitle {
@@ -181,6 +251,7 @@ color: #2e2f42;
   color: #434455;
 }
 
+/* ================ */
 /* =====footer===== */
 .footer {
   background: #2e2f42;
