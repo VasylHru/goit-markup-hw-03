@@ -196,8 +196,10 @@ address {
 /* ==================TEAM============== */
 
 .team {
+  background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  
   
 }
 
@@ -210,15 +212,17 @@ address {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px
+  margin-bottom: 72px;
+  
+  
 }
 .team-list {
-  background: #f4f4fd;
   display: flex;
   gap: 24px; 
-  
-  
+
 }
+
+
 
 .team-item {
   border-radius: 0 0 4px 4px;
@@ -226,11 +230,12 @@ address {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  width: calc((100% - 72px) / 4)
+  width: calc((100% - 3 * 24px) / 4)
   
 }
 .team-box {
   padding: 32px 0;
+  
 }
 
 .team-img {
