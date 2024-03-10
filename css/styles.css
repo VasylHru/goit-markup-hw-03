@@ -38,7 +38,7 @@ address {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -121,7 +121,8 @@ address {
 .hero {
   background: #2e2f42;
   padding-bottom: 188px;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-title {
@@ -132,9 +133,6 @@ address {
   color: #fff;
   padding-top: 188px;
   padding-bottom: 188px;
-  
-  
-  
 }
 
 .hero-botton {
@@ -144,18 +142,24 @@ address {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  
-
-  
+  display: block;
+  margin: 0 auto;
+  background-color: #4d5ae5;
 }
 
 /* ===================== */
 /* ======features====== */
 
 .features {
+  padding-top: 120px;
+  padding-bottom: 240px;
 }
+
 .features-list {
+  display: flex;
+  gap: 24px;
 }
+
 .features-item-list {
 }
 
@@ -165,6 +169,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -175,11 +180,10 @@ address {
   color: #434455;
 }
 
-/* ===========*/
-/* ===team=== */
+/* =====================================*/
+/* ==================TEAM============== */
 
 .team {
-  background: #f4f4fd;
 }
 
 .tema-title {
@@ -190,12 +194,23 @@ address {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 42px;
 }
 .team-list {
+  background: #f4f4fd;
+  display: flex;
+  gap: 24px;
+  padding: 30px 184px 322px 128px;
 }
 .team-item {
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .team-img {
+  display: block;
 }
 
 .team-name {
@@ -205,6 +220,8 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-name-text {
@@ -214,10 +231,23 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 /* =============== */
-/* ===portfolio=== */
+/* ==================PORTFOLIO=============== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .portfolio {
 }
@@ -230,9 +260,20 @@ address {
   color: #2e2f42;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 21px;
+  align-items: center;
+  gap: 24px 48px;
 }
+
 .portfolio-items {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
+
 .portfolio-img {
 }
 
@@ -242,6 +283,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 32px 0 0 16px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -249,6 +291,9 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 /* ================ */
