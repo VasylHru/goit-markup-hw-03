@@ -124,8 +124,7 @@ address {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .hero-title {
@@ -135,6 +134,8 @@ address {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-botton {
@@ -296,9 +297,6 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 21px;
-  align-items: center;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -339,12 +337,20 @@ address {
   padding: 100px 0;
   margin: 0 auto;
 }
-.logo {
+  .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 16px; 
+  display: inline-block;
 }
 
-.footer-logo {
+.footer-part {
   color: #f4f4fd;
 }
 
@@ -354,4 +360,5 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
